@@ -18,19 +18,18 @@ footer{
   height: 75px;
 }
 
-
 .clearfix::after{
   content: "";
   display: table;
   clear: both;
 }
 .container{
-    margin: 20px 0px;
+    margin: 30px 0px;
   }
 
   .floater{
     float: left;
-    height: 400px;
+    height: 500px;
   }
 
 /* 
@@ -40,7 +39,7 @@ footer{
 .jumbotron{ 
   height: 400px;
   background-color: blue;
-  margin-bottom: 20px;
+  margin-bottom: 25px;
 
 }
 
@@ -50,30 +49,45 @@ footer{
 }
 
 .middleheader{
-  height: 50px;
+  height: 75px;
   background-color: yellowgreen;
   margin-bottom: 20px;
-}
+  }
 
 .middlesection{
   padding-bottom: 20px;
 
 }
 
-.unos{
+.col-sx{
 width: 19%;
 background-color: yellowgreen;
 margin-right: 1%;
 
 }
 
-.dos{
+.col-x{
   width: 60%;
   background-color: yellowgreen;
 }
 
-.tres{
+.col-dx{
   width: 19%;
   background-color: yellowgreen;
   margin-left: 1%;
+}
+
+.imago{
+width: 100%;
+}
+
+p,h2{
+
+  text-align:left;
+}
+
+.yolo{
+
+  
+  padding: 20px;
 }
