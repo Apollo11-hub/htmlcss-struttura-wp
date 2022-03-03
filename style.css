@@ -1,78 +1,74 @@
-*{
+* {
   margin:0;
   padding: 0;
   box-sizing: border-box;
 }
-body{
+body {
   width:80%;
   margin: 0 auto;
 }
 
-header{
+header {
   background-color: blueviolet;
   height: 75px;
 }
 
-footer{
+footer {
   background-color: blueviolet;
   height: 75px;
 }
 
-.clearfix::after{
+.clearfix::after {
   content: "";
   display: table;
   clear: both;
 }
-.container{
-    margin: 30px 0px;
+.container {
+  margin: 30px 0px;
   }
 
-  .floater{
-    float: left;
-    height: 500px;
+  .floater {
+  float: left;
+  height: 500px;
+  background-color: yellowgreen;
   }
 
 /* 
   Main
  */
 
-.jumbotron{ 
+.jumbotron {  
   height: 400px;
   background-color: blue;
   margin-bottom: 25px;
 
 }
 
-.middle{
+.middle {
   background-color: burlywood;
   
 }
 
-.middleheader{
+.middle-header {
   height: 75px;
   background-color: yellowgreen;
   margin-bottom: 20px;
   }
 
-.middlesection{
+.middle-section {
   padding-bottom: 20px;
-
 }
 
-.col-sx{
-width: 19%;
-background-color: yellowgreen;
-margin-right: 1%;
-
-}
-
-.col-x{
-  width: 60%;
-  background-color: yellowgreen;
-}
-
-.col-dx{
+.col-sx {
   width: 19%;
-  background-color: yellowgreen;
+  margin-right: 1%;
+}
+
+.col-x {
+  width: 60%;
+}
+
+.col-dx {
+  width: 19%;
   margin-left: 1%;
 }
