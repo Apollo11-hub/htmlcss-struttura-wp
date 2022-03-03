@@ -6,13 +6,18 @@
 body{
   width:80%;
   margin: 0 auto;
-  background-color: aquamarine;
 }
 
 header{
   background-color: blueviolet;
   height: 75px;
 }
+
+footer{
+  background-color: blueviolet;
+  height: 75px;
+}
+
 
 .clearfix::after{
   content: "";
@@ -21,15 +26,54 @@ header{
 }
 .container{
     margin: 20px 0px;
-}
+  }
+
+  .floater{
+    float: left;
+    height: 400px;
+  }
 
 /* 
   Main
  */
 
-.jumbotron{
-  
+.jumbotron{ 
   height: 400px;
   background-color: blue;
+  margin-bottom: 20px;
 
+}
+
+.middle{
+  background-color: burlywood;
+  
+}
+
+.middleheader{
+  height: 50px;
+  background-color: yellowgreen;
+  margin-bottom: 20px;
+}
+
+.middlesection{
+  padding-bottom: 20px;
+
+}
+
+.unos{
+width: 19%;
+background-color: yellowgreen;
+margin-right: 1%;
+
+}
+
+.dos{
+  width: 60%;
+  background-color: yellowgreen;
+}
+
+.tres{
+  width: 19%;
+  background-color: yellowgreen;
+  margin-left: 1%;
 }
